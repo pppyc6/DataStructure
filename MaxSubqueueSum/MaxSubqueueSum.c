@@ -78,8 +78,8 @@ static int MaxSum3(const int a[], int Left, int Right)
     }
 
     Center = (Left + Right) / 2;
-    MaxLeftSum = MaxSum3(a, Left, Center);
-    MaxRightSum = MaxSum3(a, Center + 1, Right);
+    MaxLeftSum = MaxSum3(a, Left, Center-1);
+    MaxRightSum = MaxSum3(a, Center , Right);
 
     MaxLeftBorderSum = 0;
     LeftBorderSum = 0;
