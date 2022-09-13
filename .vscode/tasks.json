@@ -19,7 +19,7 @@
         "-fexec-charset=GBK",
         "-g",
         "${file}",
-        "${fileDirname}\\AP.c",
+        "${fileDirname}\\API.c",
         "-o",
         "${fileDirname}\\${fileBasenameNoExtension}.exe"
       ],
